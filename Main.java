@@ -4,7 +4,7 @@ class Main {
    Scanner scan = new Scanner(System.in);
     System.out.println("wprowadz zdanie");
     String s1=scan.nextLine();
-    String s2=s1.replaceALL(" ","_");
+    String s2=s1.replaceAll(" ","_");
     System.out.println(s2);
   }
 }
